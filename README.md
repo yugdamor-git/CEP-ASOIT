@@ -24,7 +24,8 @@ Firebase is Google's mobile platform that helps you quickly develop high-quality
 
 ``
 
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+## Screenshot
+Inline-style: 
+![alt text](https://raw.githubusercontent.com/yugdamor-git/CEP-ASOIT/master/banner.png "Banner")
 
-Please make sure to update tests as appropriate.
+
