@@ -27,9 +27,25 @@ Firebase is Google's mobile platform that helps you quickly develop high-quality
 
 ##Screenshot :
 
-![alt text](https://raw.githubusercontent.com/yugdamor-git/CEP-ASOIT/master/01.png "Banner")
-![alt text](https://raw.githubusercontent.com/yugdamor-git/CEP-ASOIT/master/02.png "Banner")
-![alt text](https://raw.githubusercontent.com/yugdamor-git/CEP-ASOIT/master/03.png "Banner")
+<body>
+  <table>
+  <tr>
+    <th><img src="https://raw.githubusercontent.com/yugdamor-git/CEP-ASOIT/master/01.png" alt="splash screen" height="540" width="270" style="width:100%;" class="responsive"></th>
+    <th><img src="https://raw.githubusercontent.com/yugdamor-git/CEP-ASOIT/master/02.png" alt="home screen" height="540" width="270" style="width:100%;" class ="responsive"></th> 
+    <th><img src="https://raw.githubusercontent.com/yugdamor-git/CEP-ASOIT/master/03.png" alt="add" height="540" width="270" style="width:100%;" class="responsive"></th>
+  </tr>
+  
+   <tr>
+    <th><img src="https://raw.githubusercontent.com/yugdamor-git/CEP-ASOIT/master/04.png" alt="select absent no" height="540" style="width:100%;" width="270" class="responsive">
+</th>
+    <th><img src="https://raw.githubusercontent.com/yugdamor-git/CEP-ASOIT/master/05.png" alt="share" height="540" width="270" style="width:100%;" class="responsive"></th> 
+    <th><img src="https://raw.githubusercontent.com/yugdamor-git/CEP-ASOIT/master/06.png" alt="delete" height="540" style="width:100%;" width="270" class="responsive"></th>
+  </tr>
+  
+  
+  
+</table>  
+  </body>
 
 
 
