@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_navgraph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.asoit.cep_asoit.home.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/home_fragment" >
+        <action
+            android:id="@+id/action_homeFragment_to_subjectFragment"
+            app:destination="@id/subjectFragment"
+            app:enterAnim="@anim/fragment_open_enter"
+            app:exitAnim="@anim/fragment_open_exit" />
+    </fragment>
+    <fragment
+        android:id="@+id/subjectFragment"
+        android:name="com.asoit.cep_asoit.subject.SubjectFragment"
+        android:label="Subject"
+        tools:layout="@layout/subject_fragment" >
+        <argument
+            android:name="subject_name"
+            app:argType="string"
+            app:nullable="true" />
+        <argument
+            android:name="subject_id"
+            app:argType="integer"
+            android:defaultValue="0" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingFragment"
+        android:name="com.asoit.cep_asoit.setting.SettingFragment"
+        android:label="Setting"
+        tools:layout="@layout/setting_fragment" />
+    <fragment
+        android:id="@+id/userFragment"
+        android:name="com.asoit.cep_asoit.user.UserFragment"
+        android:label="User"
+        tools:layout="@layout/user_fragment" />
+</navigation>

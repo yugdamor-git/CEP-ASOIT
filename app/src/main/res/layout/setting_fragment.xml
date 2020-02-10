@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".setting.SettingFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView5"
+                    style="@style/Base.Widget.MaterialComponents.TextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/round_home_tv"
+                    android:clickable="false"
+                    android:drawableStart="@drawable/ic_change_pwd_outline_black_24dp"
+                    android:drawablePadding="10dp"
+                    android:fontFamily="@font/roboto_black"
+                    android:longClickable="false"
+                    android:padding="10dp"
+                    android:text="Change password"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:autoLink="web"
+                    android:fontFamily="@font/roboto"
+                    android:padding="10dp"
+                    android:text="Go to http://silveroaklms.com to change your password. make sure to logout from application after changing your password on website."
+                    android:textColor="@color/colorPrimary"
+                    android:textColorLink="@color/design_default_color_error"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/round_home_tv"
+                    android:clickable="false"
+                    android:drawableStart="@drawable/ic_bug_report_black_24dp"
+                    android:drawablePadding="10dp"
+                    android:fontFamily="@font/roboto_black"
+                    android:gravity="center_vertical"
+                    android:longClickable="false"
+                    android:padding="10dp"
+                    android:text="Report"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:autoLink="email"
+                    android:fontFamily="@font/roboto"
+                    android:padding="10dp"
+                    android:text="If any issue occurs then you can contact me at yugdamor.dev@gmail.com  "
+                    android:textColor="@color/colorPrimary"
+                    android:textColorLink="@color/design_default_color_error"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/round_home_tv"
+                    android:clickable="false"
+                    android:drawableStart="@drawable/ic_about_outline_black_24dp"
+                    android:drawablePadding="10dp"
+                    android:fontFamily="@font/roboto_black"
+                    android:gravity="center_vertical"
+                    android:longClickable="false"
+                    android:padding="10dp"
+                    android:text="About"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:autoLink="web"
+                    android:fontFamily="@font/roboto"
+                    android:padding="10dp"
+                    android:text="As you know In order to check CEP result, you have to log in every time on the website.\n \nBy using this application you don't have to log in again and again.   "
+                    android:textColor="@color/colorPrimary"
+                    android:textColorLink="@color/design_default_color_error"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:autoLink="web"
+                    android:fontFamily="@font/roboto"
+                    android:padding="10dp"
+                    android:text="We keep this app free by showing ads."
+                    android:textColor="@color/colorAccent"
+                    android:textColorLink="@color/design_default_color_error"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/logout_setting"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/round_home_tv"
+                    android:clickable="false"
+                    android:drawableStart="@drawable/ic_logout_settings_new_black_24dp"
+                    android:drawablePadding="10dp"
+                    android:fontFamily="@font/roboto_black"
+                    android:gravity="center_vertical"
+                    android:longClickable="false"
+                    android:padding="10dp"
+                    android:text="Logout"
+                    android:textColor="@color/design_default_color_error"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:autoLink="web"
+                    android:fontFamily="@font/roboto"
+                    android:padding="10dp"
+                    android:text="Click logout button three times to log out"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textColorLink="@color/design_default_color_error"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:autoLink="web"
+                    android:fontFamily="@font/roboto"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="Made with ❤love by Yug Damor"
+                    android:textColor="@color/design_default_color_on_secondary"
+                    android:textColorLink="@color/design_default_color_error"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</FrameLayout>
